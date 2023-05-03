@@ -162,6 +162,9 @@ Figure9: By successfully compiling the contract when we click the deploy button 
 ![f53](https://user-images.githubusercontent.com/89090776/235909353-b4e0f5a9-8f67-4e42-a7ce-811a60fb5477.jpg)
 Figuere10: after clicking the confirm the transaction have occured successfully<br>
 
+![f54](https://user-images.githubusercontent.com/89090776/235910246-b4aa041c-5529-43ec-9cfa-53fdc9df7ef3.jpg)
+Figure11: when we click on the ```getVersion``` button it returns the value equal to 4, which means it is the fourth version of the price feeds<br>
+
 
 
 
