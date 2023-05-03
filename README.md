@@ -66,6 +66,9 @@ ways we can interact with the contract<br>
 Figure7: We will copy the code from below ```pragma solidity ^0.8.0``` upto the bottom<br>
 
 
+![f51](https://user-images.githubusercontent.com/89090776/235888496-d3317c68-b51b-41bc-97a7-4c4f89f582d4.jpg)\
+Figure8: Then we wil paste it at our solidity file ```FundMe.sol``` below ```pragma solidity ^0.8.8```<br>
+
 
 
 
