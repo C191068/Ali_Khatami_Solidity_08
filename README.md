@@ -129,6 +129,17 @@ contract akrkFundMe  {
 
         //ABI
         //Address 0x694AA1769357215DE4FAC081bf1f309aDC325306
+
+        
+    }
+
+    //below we have created a new function
+
+    function getVerion() public view returns (uint256)
+    {
+        AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306); //it is of type 'AggregatorV3Interface'
+        return priceFeed.version();
+        
     }
 
     function getConversionRate()  public {}
@@ -144,6 +155,14 @@ with whatever code is here ```0x694AA1769357215DE4FAC081bf1f309aDC325306```<br>
 if at ```0x694AA1769357215DE4FAC081bf1f309aDC325306``` contract address the ```AggregatorV3Interface``` is valid we can do something like this<br>
 
 ```AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306).version();``` which means we can call ```version()``` function on this contract<br>
+
+![f52](https://user-images.githubusercontent.com/89090776/235908712-9a0c5745-5be7-485b-989c-3a74dede402c.jpg)
+Figure9: By successfully compiling the contract when we click the deploy button the metamask window will pop up showing the amount needed for the transaction<br>
+
+![f53](https://user-images.githubusercontent.com/89090776/235909353-b4e0f5a9-8f67-4e42-a7ce-811a60fb5477.jpg)
+Figuere10: after clicking the confirm the transaction have occured successfully<br>
+
+
 
 
 
