@@ -33,6 +33,10 @@ In the code above if ```msg.value``` is actually greater than minimum USD we hav
 
 for that first we need to get the price of ethereum or whatever layer one blockchain we are working with<br>
 
+If we want to interact any contract which is outside of our contract we need two things<br> 
+1.ABI<br>
+2.Address of our contract<br>
+
 
 
 
