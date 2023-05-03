@@ -56,6 +56,12 @@ Figure5: then we will click on ```AggregatorV3Interface.sol``` folder <br>
 
 
 
+![f48](https://user-images.githubusercontent.com/89090776/235884759-cc1ff218-0fe8-4532-9e9d-665ef19d4f6f.jpg)
+Figure6:here we can see a whole bunch of function declraration but no logic is implemented in these functions<br>
+this is what known as interface,if we compile these we will get the ABI of a contract as it defines all the different<br>
+ways we can interact with the contract<br>
+
+
 
 
 
