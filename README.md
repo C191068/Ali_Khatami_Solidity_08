@@ -31,4 +31,8 @@ contract akrkFundMe  {
 
 In the code above if ```msg.value``` is actually greater than minimum USD we have to convert that msg.value from it's layer one slash ethereum to USD equivalent.<br>
 
+for that first we need to get the price of ethereum or whatever layer one blockchain we are working with<br>
+
+
+
 
