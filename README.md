@@ -29,4 +29,6 @@ contract akrkFundMe  {
 }
 ```
 
-In the code above if ```msg.value``` is actually greater than minimum USD we have to convert that msg.value from ethereum to USD equivalent.
+In the code above if ```msg.value``` is actually greater than minimum USD we have to convert that msg.value from it's layer one slash ethereum to USD equivalent.<br>
+
+
