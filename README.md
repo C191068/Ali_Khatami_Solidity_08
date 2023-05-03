@@ -143,7 +143,8 @@ with whatever code is here ```0x694AA1769357215DE4FAC081bf1f309aDC325306```<br>
 
 if at ```0x694AA1769357215DE4FAC081bf1f309aDC325306``` contract address the ```AggregatorV3Interface``` is valid we can do something like this<br>
 
-```AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306).version();```
+```AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306).version();``` which means we can call ```version()``` function on this contract<br>
+
 
 
 
