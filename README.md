@@ -62,6 +62,9 @@ this is what known as interface,if we compile these we will get the ABI of a con
 ways we can interact with the contract<br>
 
 
+![f49](https://user-images.githubusercontent.com/89090776/235886375-d60dd0c2-543a-4438-9183-6ea338fa1fa8.jpg)
+Figure7: We will copy the code from below ```pragma solidity ^0.8.0``` upto the bottom<br>
+
 
 
 
