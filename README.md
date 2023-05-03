@@ -72,7 +72,70 @@ Figure8: Then we wil paste it at our solidity file ```FundMe.sol``` below ```pra
 
 
 
+```
+//SPDX-License-Identifier:MIT
 
+pragma solidity ^0.8.8;
+
+interface AggregatorV3Interface {
+  function decimals() external view returns (uint8);
+
+  function description() external view returns (string memory);
+
+  function version() external view returns (uint256);
+
+  function getRoundData(uint80 _roundId)
+    external
+    view
+    returns (
+      uint80 roundId,
+      int256 answer,
+      uint256 startedAt,
+      uint256 updatedAt,
+      uint80 answeredInRound
+    );
+
+  function latestRoundData()
+    external
+    view
+    returns (
+      uint80 roundId,
+      int256 answer,
+      uint256 startedAt,
+      uint256 updatedAt,
+      uint80 answeredInRound
+    );
+}
+
+contract akrkFundMe  {
+
+    uint256 public minimumUSD=50;
+
+// we have use payable keyword with the function below to make it payable with any native blockchain currency
+    function fund() public payable {
+
+        require(msg.value >= minimumUSD , "Not send enough");// to get accees to the 'value' at deploy at run transaction tab
+        //1e18 is 1 ether, here the value must be greater than 1 ether
+        //require is a checker it checks whether the value is greater than 1 ether
+        // if not it is going to revert with an error messsage shown above
+
+    }// To send money. We made it public so that anybody can call it
+
+  //The function below is created so that we can get price of ethereum in terms of USD , so that we can convert msg.value to USD
+//Both functions are public because we can do whatever we want with them
+//By using the getPrice() function below we are going to interact with contract outside of our project
+
+    function getPrice() public {
+
+        //ABI
+        //Address 0x694AA1769357215DE4FAC081bf1f309aDC325306
+    }
+
+    function getConversionRate()  public {}
+    
+
+}
+```
 
 
 
