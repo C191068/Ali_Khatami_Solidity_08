@@ -3,7 +3,8 @@
 
 given a code
 
-```
+```solidity
+
 //SPDX-License-Identifier:MIT
 
 pragma solidity ^0.8.8;
@@ -72,7 +73,8 @@ Figure8: Then we wil paste it at our solidity file ```FundMe.sol``` below ```pra
 
 
 
-```
+```solidity
+
 //SPDX-License-Identifier:MIT
 
 pragma solidity ^0.8.8;
